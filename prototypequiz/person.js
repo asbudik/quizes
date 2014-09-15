@@ -63,6 +63,7 @@ Student.prototype.sleep = function() {
     return "this student is asleep"
   } else if (this.study === true) {
     return "this student is studying";
-  } else
-  return "student is asleep already"
+  } else {
+    return "student is asleep already"
+  }
 }
